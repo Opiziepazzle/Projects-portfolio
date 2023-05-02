@@ -9,6 +9,25 @@ const bodyParser = require ('body-parser')
 const Clients = require('./model/Clients')
 // const simpleBlogrouter = require('./routes/simpleBlogrouter')
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const dotenv = require('dotenv')
  const dotenvb = require('dotenv').config()
 
