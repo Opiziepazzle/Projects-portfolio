@@ -12,22 +12,6 @@ const Clients = require('./model/Clients')
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const dotenv = require('dotenv')
  const dotenvb = require('dotenv').config()
 
