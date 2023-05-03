@@ -19,16 +19,9 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
-<<<<<<< HEAD
+
     "bson": "^5.2.0",
     "firebase": "^9.21.0",
-    "node": ">=14 <15"
-  },
-  "engines": {
-    "node": ">=14 <15"
-=======
-    
     "node": "^14.20.1"
->>>>>>> ce7ed6aa9b47ae433ace94d3b3aa9f9f38cecf5c
   }
 }
