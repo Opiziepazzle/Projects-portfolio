@@ -18,10 +18,22 @@ const dotenv = require('dotenv')
  app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
-app.use(express.static(path.join(__dirname, "public")));
+ app.use(express.static(path.join(__dirname, "public")));
+ 
 const { engine } = require('express-handlebars');
 app.engine('hbs', engine({ extname: '.hbs', defaultLayout: "main" }));
 app.set('view engine', 'hbs');
+
+// const exphbs  = require('express-handlebars');
+
+// app.engine('hbs', exphbs({
+//     extname: '.hbs', // extension of the files
+//     defaultLayout: 'main', // default layout template
+//     layoutsDir: path.join(__dirname, 'views/layouts'), // directory for layout templates
+//     partialsDir: path.join(__dirname, 'views/partials') // directory for partial templates
+// }));
+
+// app.set('view engine', 'hbs');
 
 mongoose.set("strictQuery", false);
 
