@@ -1,0 +1,11 @@
+{
+  "projectName": "theportfolio",
+  "meta": {
+    "type": "backend"
+  },
+  "backend": {
+    "platform": "node17"
+  },
+  "hash": "97cf944b",
+  "domain": "theportfolio.mdbgo.io"
+}
