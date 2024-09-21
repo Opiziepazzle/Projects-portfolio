@@ -10,15 +10,13 @@
     <title>Document</title>
     <script src="https://kit.fontawesome.com/bd573a16ad.js" crossorigin="anonymous"></script>
 </head>
-{{!-- style="background-image: url(images/IMG-6971.jpg)" --}}
 
 <body>
-
-    <div id="header" style="background-image: url(images/IMG-6971.JPG)" ;>
+    <!-- Header Section -->
+    <div id="header" style="background-image: url(images/IMG-6971.JPG);">
         <div class="container">
             <nav>
-                <a href="/"><img src="images/IMG-5071.jpg" class="logo"></a>
-                {{!-- <h1><span>H</span>akeem.</h1> --}}
+                <a href="/"><img src="images/IMG-5071.jpg" alt="Logo" class="logo"></a>
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -26,91 +24,73 @@
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
-
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>SOFTWARE DEVELOPER.</p>
-                <h1>Hi, I'm <span> Hakeem</span> <br> Adigun from Nigeria.</h1>
-
+                <h1>Hi, I'm <span>Hakeem</span> <br> Adigun from Nigeria.</h1>
             </div>
-
-
-
-
         </div>
-
     </div>
 
-    <!-- -------About Me-----  -->
+    <!-- About Section -->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/IMG-4014.jpg" alt="">
+                    <img src="images/IMG-4014.jpg" alt="Profile Image">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-tittle">About Me</h1> <br>
-                    <p>Hi 👋, my name is Hakeem. I'm a Software Developer. I build
-                        and maintain complex web applications. I have a strong passion for
-                        coding and solving complex problems to deliver efficient and scalable solutions. <br><br>
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>👋 Hi, I’m Hakeem, a passionate Backend Developer focused on crafting scalable web applications. Specializing in Node.js and Golang, I excel in building robust backend systems and APIs, while ensuring data integrity with MongoDB, MySQL and Redis.<br><br>
 
-                        I specialize in using Nodejs and Golang to develop backend systems and APIs. I
-                        enjoy working with databases such as MySQL and MongoDB to ensure the quality and integrity
-                        of data within the applications. <br><br>
+I leverage frameworks like Express, Fiber, and Gin to create seamless user experiences and design RESTful APIs and microservices. Committed to continuous learning, I stay updated on industry trends and thrive in collaborative environments.<br><br>
 
-                        My experience includes working with Express, Fiber, Gin and GORM as frameworks to build web applications from the
-                        ground up. I also have experience in designing and implementing RESTful APIs and microservices
-                        architectures. <br><br>
-
-                        I believe in continuously learning and staying up-to-date with the latest technologies and
-                        trends in the industry. I'm a team player and love working collaboratively to develop
-                        robust and maintainable applications. <br><br>
-
-                        In summary, I'm a dedicated Backend Developer who is passionate about building high-quality,
-                        scalable and efficient web applications. I'm always excited to take on new challenges and work
-                        collaboratively with my team to deliver the best possible product. <br>
+In short, I’m dedicated to delivering high-quality solutions and excited to tackle new challenges that drive innovation.
                     </p><br>
+                    <!-- Tab Titles -->
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
+
+                    <!-- Tab Contents -->
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Web Development </span><br>HTML, CSS, JavaScript.</li>
-                            <li><span>Programming Language</span><br>JavaScript and Golang </li>
-                          <li><span>Frameworks</span><br>Express, Fiber, Gin and GORM </li>
-                             <li><span>Databases</span><br>MongoDB and MySQL </li>
-                            <li><span>Library</span><br>JQuery and React </li>
-                            <li><span>Version Control</span><br>Git </li>
-                             <li><span>Software Development Lifecycle (SDLC)</span><br>Agile methodologies </li>
+                            <li><span>Web Development</span> <br>HTML, CSS, React.Js</li>
+                            <li><span>Programming Languages</span> <br>JavaScript, Node.js and Golang.</li>
+                            <li><span>Framework</span> <br>Express, Fiber, Gin and GORM</li>
+                            <li><span>Database</span> <br>MongoDB, MySQL and Redis</li>
+                            <li><span>Authentication & Authorization</span> <br>JWT, OAuth, Passport.js</li>
+                            <li><span>API development</span> <br>RESTful APIs, API documentation</li>
+                            <li><span>Version control</span> <br>Git, GitHub</li>
+                            <li><span>Containerization & Orchestration: Docker</span> <br>Docker</li>
+                            <li><span>Cloud Services</span> <br>AWS, Google Cloud Platform</li>
                         </ul>
                     </div>
 
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>Frontend Developer</span><br>Web Developoment </li>
-                            <li><span>API Designing</span><br>API </li>
-                            <li><span>Database Management</span><br>MongoDB</li>
+                            <li><span>Software Backend Developer</span> <br>Codar Institute</li>
+                            <li><span>Software Backend Developer</span> <br> Digital Business Konsult</li>
+                            <li><span>Software Backend Developer</span> <br>Volomn</li>
+                            <li><span>Software Backend Developer</span> <br>KabuKabz</li>
                         </ul>
                     </div>
+
                     <div class="tab-contents" id="education">
                         <ul>
-                            {{!-- <li><span>Secondary Education</span><br>Ajogbo Grammar School </li> --}}
-                            <li><span>Tertiary Institution</span><br>Olabisi Onabanjo University </li>
-                            <li><span>Tech </span><br> Codar Institute</li>
+                            <li><span>Tertiary Institution</span> <br>Olabisi Onabanjo University</li>
                         </ul>
                     </div>
-
-
                 </div>
             </div>
         </div>
-
     </div>
-    <!------Services------->
+
+    <!-- Services Section -->
     <div id="services">
         <div class="container">
             <h1 class="sub-title">My Services</h1>
@@ -119,133 +99,107 @@
                     <i class="fa-solid fa-code"></i>
                     <h2>Server-side Programming</h2>
                     <p>I Develop Web Applications that run on servers, which requires handling issues like server
-                        scalability, performance and security.</p>
+                        scalability, performance, and security.</p>
                     <a href="">Learn more</a>
-
-
-
                 </div>
                 <div>
                     <i class="fas fa-crop-alt"></i>
-                    <h2>API <br> Development</h2>
-                    <p>Creating a clean and effective API that communicates between your Application backend, and the
-                        client-facing frontend.</p>
+                    <h2>API Development</h2>
+                    <p>Creating a clean and effective API that communicates between your backend and client-facing
+                        frontend.</p>
                     <a href="">Learn more</a>
-
-
-
                 </div>
                 <div>
                     <i class="fa-sharp fa-solid fa-arrows-to-circle"></i>
                     <h2>Database Design and Management</h2>
-                    <p>I Design and Manage Database related to Web Applications .</p>
+                    <p>I design and manage databases related to web applications.</p>
                     <a href="">Learn more</a>
-
-
-
                 </div>
-
             </div>
-
-
-
         </div>
-
-
     </div>
-    <!-----PORTFOLIO-->
+
+    <!-- Portfolio Section -->
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
+                <div class="work">
+                    <img src="images/github.jpg" alt="GitHub">
+                    <div class="layer">
+                        <a href="https://github.com/opiziepazzle"><i class="fas fa-external-link-alt"></i></a>
+                        <h3>Explore My Code on GitHub</h3>
+                        <p> Explore my diverse portfolio of projects on GitHub, showcasing expertise in Node.js,
+                            Express, React, Golang, Fiber, Redis, Google OAuth, data sanitization, and more. From
+                            backend systems to full-stack web applications, my work reflects a commitment to building
+                            scalable and efficient solutions</p>
+                    </div>
+                </div>
 
                 <div class="work">
-                    {{!-- <img src="images/hero-carousel-5.jpg"> --}}
-                    <img src="images/IMG-69577.jpg">
+                    <img src="images/zakas-cover.jpg" alt="E-commerce App">
                     <div class="layer">
-                        <a href="https://upconstruction.onrender.com"><i class="fas fa-external-link-alt"></i> </a>
-
+                        <a href="https://zakas.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+                        <h3>E-commerce Web App</h3>
+                        <p>Developed an online shopping platform with a user-friendly interface for browsing and
+                            purchasing
+                            products. The app supports user authentication, product management, and secure checkout
+                            functionality. Technologies Used: Node.js, Express, MongoDB, Handlebars (for templating).
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/IMG-69577.jpg" alt="Construction Company App">
+                    <div class="layer">
+                        <a href="https://upconstruction.onrender.com"><i class="fas fa-external-link-alt"></i></a>
                         <h3>Construction Company Web App</h3>
-                        <p>I was responsible for developing the backend using Node.js and Express.<br>
-                            I utilized the Handlebars template engine for efficient rendering of dynamic web pages.
-                            The data was stored and managed in MongoDB.
-
-
+                        <p>Developed a web app for a construction company, featuring an interface to send messages, read
+                            about the company, and view their previous projects. It provides a user-friendly way to
+                            explore
+                            services and contact the company directly. Technologies Used: Node.js, Express, MongoDB,
+                            Handlebars (for templating).</p>
                     </div>
-
                 </div>
-
                 <div class="work">
-                    <img src="images/about-2.jpg">
+                    <img src="images/workout1.png" alt="Workout Web App">
                     <div class="layer">
-                        <a href="https://job-entry.onrender.com"><i class="fas fa-external-link-alt"></i> </a>
-
-                        <h3>Vacancy Organization Website</h3>
-                        <p>Within this project, my role involved the development of the backend infrastructure using
-                            Node.js and Express.<br>
-                            I employed the Handlebars template engine. The storage and management of data were handled
-                            through MongoDB, guaranteeing seamless
-                            accessibility and retrieval.
-
-
-
+                        <a href="https://theworkoutapp.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+                        <h3>Workout Web App</h3>
+                        <p>Built a workout-tracking platform that allows users to log their exercises and monitor
+                            progress.
+                            The app includes user authentication, workout history, and workout metrics visualization.
+                            Technologies Used: Node.js, Express, MongoDB, Handlebars (for templating), React.</p>
                     </div>
                 </div>
-
-                <div class="work">
-                    <img src="images/work-1.png">
-                    <div class="layer">
-                        <a href="https://iphoneapis.onrender.com"><i class="fas fa-external-link-alt"></i> </a>
-
-                        <h3>Amazon iPhone API</h3>
-                        <p>This project developed a web application
-                            using Express and web scraping to extract
-                            iPhone data from Amazon. It replicated
-                            Amazon's API functionality, enabling
-                            authorized users to programmatically access
-                            and retrieve iPhone information.<br>
-                            The API was secured with an API key, ensuring controlled
-                            access. The project aimed to provide a
-                            convenient and restricted means for users to
-                            obtain iPhone data from Amazon for
-                            integration and analysis purposes.</p>
-
-                    </div>
-                </div>
-
-
-
             </div>
-
-            <a href="/sample" class="btn">See more</a>
-            {{!-- <button onclick="showProjects()" class="btn">See more</button> --}}
         </div>
 
     </div>
-    <!-----PORTFOLIO-->
+    <a href="/sample" class="btn">See more</a>
+    </div>
+    </div>
+
+    <!-- Contact Section -->
     <div id="contact">
         <div class="container">
             <div class="row">
-
-
                 <div class="contact-left">
-                    <h1 class="sub-tittle">Contact Me</h1>
-                    <p> <i class="fas fa-paper-plane"></i> opizie47@gmail.com</p>
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> opizie47@gmail.com</p>
                     <p><i class="fas fa-phone-square-alt"></i> 07066832964</p>
                     <div class="social-icon">
                         <a href="https://facebook.com/adigun.akeem2"><i class="fab fa-facebook"></i></a>
                         <a href="https://twitter.com/opiziepazzle"><i class="fab fa-twitter-square"></i></a>
                         <a href="https://instagram.com/optimistic_opiziepazzle"><i class="fab fa-instagram"></i></a>
-                        <a href="https://linkedin.com/in/adigun-opeyemi-628453233"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://linkedin.com/in/opiziepazzle"><i class="fab fa-linkedin"></i></a>
                     </div>
-                    <a href="images/" download class="btn btn2">Download CV</a>
-
+                    <a href="https://drive.google.com/file/d/1UVqKk1MXuS_xdL02zOm_cngAdxUiWAk4/view" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet" action="/" method="POST">
                         <input type="text" name="name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="message" row="6" placeholder="Your Message"></textarea>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
                     <span id="msg"></span>
@@ -254,17 +208,7 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-    <script src="js/{{main}}"></script>
-
+    <script src="js/main.js"></script>
 </body>
 
 </html>
