@@ -1,0 +1,257 @@
+<!-- Header Section -->
+<div id="header" style="background-image: url(images/IMG-6971.JPG);">
+    <div class="container">
+        <nav>
+            <a href="/"><img src="images/IMG-5071.jpg" alt="Logo" class="logo"></a>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>SOFTWARE DEVELOPER.</p>
+            <h1>Hi, I'm <span>Hakeem</span> <br> Adigun from Nigeria.</h1>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG-4014.jpg" alt="Profile Image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>👋 Hi, I’m Hakeem, a passionate Backend Developer focused on crafting scalable web applications.
+                    Specializing in Node.js, Java and TypeScript. I excel in building robust backend systems and
+                    APIs, while ensuring data integrity with MongoDB, MySQL, PostgreSQL, Redis (Cache DB).<br><br>
+
+                    I leverage frameworks like Express and Spring Boot to create seamless user experiences and
+                    design RESTful APIs and microservices. Committed to continuous learning, I stay updated on
+                    industry trends and thrive in collaborative environments.<br><br>
+
+                    In short, I’m dedicated to delivering high-quality solutions and excited to tackle new
+                    challenges that drive innovation.
+                </p><br>
+                <!-- Tab Titles -->
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <!-- Tab Contents -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span> <br>JavaScript, Node.js, TypeScript, Java</li>
+                        <li><span>Framework</span> <br>Express, Spring Boot</li>
+                        <li><span>Database</span> <br>MongoDB, MySQL, PostgreSQL </li>
+                        <li><span>Authentication & Authorization</span> <br>JWT, OAuth, Passport.js</li>
+                        <li><span>API development</span> <br>RESTful APIs, Swagger/OpenAPI, Postman / Insomnia</li>
+                        <li><span>Version control</span> <br>Git, GitHub</li>
+                        <li><span>Containerization & Orchestration</span> <br>Docker</li>
+                        <li><span>Cloud Services</span> <br>Render, Learning: AWS</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Software Backend Developer</span> <br>JointEarn</li>
+                        <li><span>Software Backend Developer</span> <br>Guild Technology</li>
+                        <li><span>Software Backend Developer</span> <br> Digital Business Konsult</li>
+                        <li><span>Software Backend Developer</span> <br>Codar Institute</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Tertiary Institution</span> <br>Olabisi Onabanjo University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services Section -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Server-side Programming</h2>
+                <p>I Develop Web Applications that run on servers, which requires handling issues like server
+                    scalability, performance, and security.</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>API Development</h2>
+                <p>Creating a clean and effective API that communicates between your backend and client-facing
+                    frontend.</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-arrows-to-circle"></i>
+                <h2>Database Design and Management</h2>
+                <p>I design and manage databases related to web applications.</p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/github.jpg" alt="GitHub">
+                <div class="layer">
+                    <a href="https://github.com/opiziepazzle"><i class="fas fa-external-link-alt"></i></a>
+                    <h3>Explore My Code on GitHub</h3>
+                    <p> Explore my diverse portfolio of projects on GitHub, showcasing expertise in Node.js,
+                        Express, React, Golang, Java, Spring Boot, Fiber, Redis, BullMQ, Socket.IO, SDK Integration,
+                        JWT, Google OAuth, data sanitization, and more. From
+                        backend systems to full-stack web applications, my work reflects a commitment to building
+                        scalable and efficient solutions</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=870&auto=format&fit=crop"
+                    alt="Shopwave Storefront">
+                <div class="layer">
+                    <a href="https://theshopwave.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+                    <h3>Shopwave E-commerce</h3>
+                    <p>Developed a scalable full-stack e-commerce platform with a responsive user interface for
+                        smooth product discovery, cart management, and secure checkout. Implemented JWT-based
+                        authentication, real-time product handling, and optimized backend APIs for efficient
+                        performance.
+
+                        Technologies Used: Java Spring Boot, React, PostgreSQL, and Render.
+                    </p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWfok5lJ8khxxd0cIRf_s5k-hQx8mr_ZjEgA&s"
+                    alt="Jointearn Preview">
+                <div class="layer">
+                    <a href="https://web.jointearn.com"><i class="fas fa-external-link-alt"></i></a>
+                    <h3>JointEarn</h3>
+                    <p>Built the gaming backend infrastructure for Jointearn, a rewards-based platform where users
+                        earn by playing games, reading news, listening to music, and shopping online, available on
+                        Play and App Store. Handled the game systems, including real-time socket features, SDK
+                        integrations, anti-cheat protection, tournaments, leaderboards, session tracking, and
+                        automated rewards.
+
+                        Technologies Used: Node.js, Express, PostgreSQL, Redis, BullMQ, Socket.IO, SDK Integration
+                        and
+                        JWT.
+                    </p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1642056448488-906d3511fe96?q=80&w=1925&auto=format&fit=crop"
+                    alt="ludo img">
+                <div class="layer">
+                    <a href="https://game.jointearn.com/ludo/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    <h3>Ludo Multiplayer</h3>
+                    <p>Built a real-time Ludo multiplayer game with interactive gameplay UI and backend-driven logic for
+                        smooth player synchronization. Implemented features such as quick match pairing, room code
+                        creation and joining system, and live turn-based gameplay updates. Handled game state
+                        management, player interactions, and secure session tracking to ensure fair and consistent
+                        matches.
+
+                        Technologies Used: JavaScript, HTML, CSS, Node.js, Express, Socket.IO, and PostgreSQL.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?q=80&w=1932&auto=format&fit=crop"
+                    alt="E-commerce App">
+                <div class="layer">
+                    <a href="https://zakas.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+                    <h3>E-commerce Web App</h3>
+                    <p>Developed an online shopping platform with a user-friendly interface for browsing and
+                        purchasing
+                        products. The app supports user authentication, product management, and secure checkout
+                        functionality. Technologies Used: Node.js, Express, MongoDB, Handlebars (for templating).
+                    </p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/IMG-69577.jpg" alt="Construction Company App">
+                <div class="layer">
+                    <a href="https://upconstruction.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+                    <h3>Construction Company Web App</h3>
+                    <p>Developed a web app for a construction company, featuring an interface to send messages, read
+                        about the company, and view their previous projects. It provides a user-friendly way to
+                        explore
+                        services and contact the company directly. Technologies Used: Node.js, Express, MongoDB,
+                        Handlebars (for templating).</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Workout1.png" alt="Workout Web App">
+                <div class="layer">
+                    <a href="https://theworkoutapp.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+                    <h3>Workout Web App</h3>
+                    <p>Built a workout-tracking platform that allows users to log their exercises and monitor
+                        progress.
+                        The app includes user authentication, workout history, and workout metrics visualization.
+                        Technologies Used: Node.js, Express, MongoDB, Handlebars (for templating), React.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<a href="/sample" class="btn">See more</a>
+</div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> opizie47@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 07066832964</p>
+                <div class="social-icon">
+                    <a href="https://facebook.com/adigun.akeem2"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/opiziepazzle"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/optimistic_opiziepazzle"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/opiziepazzle"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1UVqKk1MXuS_xdL02zOm_cngAdxUiWAk4/view" download
+                    class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" action="/" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
